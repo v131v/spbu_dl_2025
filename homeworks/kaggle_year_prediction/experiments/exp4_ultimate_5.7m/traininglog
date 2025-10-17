@@ -1,0 +1,120 @@
+============================================================
+Year Prediction MSD - Ultimate Solution
+============================================================
+Device: cpu
+Maximum power with extended training
+Expected training time: 10-20 minutes on CPU
+============================================================
+
+Loading data...
+Train X shape: (14000, 90)
+Train Y shape: (14000, 1)
+Test X shape: (6000, 91)
+
+Year range: 1922 - 2011
+Mean year: 1998.37
+
+Train set: 12600 samples
+Validation set: 1400 samples
+Test set: 6000 samples
+Test IDs range: 0 - 19996
+
+Model: UltimateYearPredictionNet
+Total parameters: 5,739,073
+Architecture: 90 → 2048 → 1024 → 768 → 512 → 384 → 256 → 128 → 64 → 1
+
+Starting training...
+Total epochs: 1000
+Early stopping patience: 100
+
+Epoch [   1/1000] Train: 1722024.7417 | Val: 184575.7631 | LR: 0.0005000 | Time: 3.5s | Total: 0.1m
+  ✓ Model saved! Best Val Loss: 184575.7631 (RMSE: 429.6228)
+  ✓ Model saved! Best Val Loss: 20185.1061 (RMSE: 142.0743)
+  ✓ Model saved! Best Val Loss: 348.6072 (RMSE: 18.6710)
+Epoch [  10/1000] Train: 6301.3327 | Val: 30051.4460 | LR: 0.0005000 | Time: 2.8s | Total: 0.5m
+  ✓ Model saved! Best Val Loss: 198.1521 (RMSE: 14.0767)
+  ✓ Model saved! Best Val Loss: 174.4292 (RMSE: 13.2072)
+Epoch [  20/1000] Train: 4188.5195 | Val: 1843.9063 | LR: 0.0005000 | Time: 2.9s | Total: 1.0m
+  ✓ Model saved! Best Val Loss: 143.2487 (RMSE: 11.9687)
+Epoch [  30/1000] Train: 17322.7532 | Val: 168.1703 | LR: 0.0005000 | Time: 3.0s | Total: 1.5m
+Epoch [  40/1000] Train: 6145.3658 | Val: 4714.6744 | LR: 0.0005000 | Time: 3.4s | Total: 2.0m
+Epoch [  50/1000] Train: 9354.0348 | Val: 1546.0686 | LR: 0.0005000 | Time: 3.0s | Total: 2.5m
+Epoch [  60/1000] Train: 7142.1013 | Val: 516.3125 | LR: 0.0005000 | Time: 3.0s | Total: 3.0m
+Epoch [  70/1000] Train: 2756.1275 | Val: 2751.6112 | LR: 0.0002500 | Time: 3.1s | Total: 3.5m
+Epoch [  80/1000] Train: 8807.1091 | Val: 824.2055 | LR: 0.0002500 | Time: 2.9s | Total: 4.1m
+Epoch [  90/1000] Train: 3469.2297 | Val: 600.2292 | LR: 0.0002500 | Time: 3.0s | Total: 4.6m
+Epoch [ 100/1000] Train: 2467.5791 | Val: 150.1747 | LR: 0.0002500 | Time: 3.0s | Total: 5.1m
+Epoch [ 110/1000] Train: 3411.7591 | Val: 1675.5927 | LR: 0.0002500 | Time: 3.0s | Total: 5.6m
+Epoch [ 120/1000] Train: 2092.2662 | Val: 177.0526 | LR: 0.0002500 | Time: 3.0s | Total: 6.1m
+Epoch [ 130/1000] Train: 805.3327 | Val: 104.4415 | LR: 0.0001250 | Time: 3.0s | Total: 6.6m
+Epoch [ 140/1000] Train: 569.0897 | Val: 90.3166 | LR: 0.0001250 | Time: 3.0s | Total: 7.1m
+  ✓ Model saved! Best Val Loss: 90.3166 (RMSE: 9.5035)
+Epoch [ 150/1000] Train: 733.3727 | Val: 96.6040 | LR: 0.0001250 | Time: 3.0s | Total: 7.6m
+Epoch [ 160/1000] Train: 660.5977 | Val: 89.0500 | LR: 0.0001250 | Time: 2.9s | Total: 8.1m
+  ✓ Model saved! Best Val Loss: 89.0500 (RMSE: 9.4366)
+Epoch [ 170/1000] Train: 831.2584 | Val: 133.1765 | LR: 0.0001250 | Time: 3.0s | Total: 8.7m
+Epoch [ 180/1000] Train: 1017.2688 | Val: 88.8938 | LR: 0.0001250 | Time: 3.0s | Total: 9.2m
+  ✓ Model saved! Best Val Loss: 88.8938 (RMSE: 9.4284)
+Epoch [ 190/1000] Train: 936.3122 | Val: 96.7512 | LR: 0.0001250 | Time: 3.5s | Total: 9.7m
+Epoch [ 200/1000] Train: 725.6791 | Val: 137.3697 | LR: 0.0001250 | Time: 3.0s | Total: 10.2m
+Epoch [ 210/1000] Train: 1154.2850 | Val: 418.1631 | LR: 0.0001250 | Time: 3.3s | Total: 10.7m
+Epoch [ 220/1000] Train: 695.8399 | Val: 91.8180 | LR: 0.0001250 | Time: 3.0s | Total: 11.3m
+Epoch [ 230/1000] Train: 522.9328 | Val: 95.5255 | LR: 0.0000625 | Time: 3.1s | Total: 11.8m
+Epoch [ 240/1000] Train: 470.2351 | Val: 112.5246 | LR: 0.0000625 | Time: 3.0s | Total: 12.3m
+Epoch [ 250/1000] Train: 515.0563 | Val: 93.9989 | LR: 0.0000313 | Time: 3.0s | Total: 12.8m
+Epoch [ 260/1000] Train: 300.6301 | Val: 110.6237 | LR: 0.0000313 | Time: 3.0s | Total: 13.3m
+Epoch [ 270/1000] Train: 415.5323 | Val: 93.8684 | LR: 0.0000313 | Time: 3.0s | Total: 13.8m
+Epoch [ 280/1000] Train: 311.0866 | Val: 117.8824 | LR: 0.0000313 | Time: 3.0s | Total: 14.3m
+Epoch [ 290/1000] Train: 937.1548 | Val: 104.3532 | LR: 0.0000313 | Time: 3.1s | Total: 14.8m
+Epoch [ 300/1000] Train: 272.3231 | Val: 131.2174 | LR: 0.0000156 | Time: 3.0s | Total: 15.3m
+Epoch [ 310/1000] Train: 220.8086 | Val: 108.2009 | LR: 0.0000156 | Time: 3.3s | Total: 15.9m
+Epoch [ 320/1000] Train: 187.9987 | Val: 123.6757 | LR: 0.0000078 | Time: 3.0s | Total: 16.4m
+Epoch [ 330/1000] Train: 205.7019 | Val: 121.9409 | LR: 0.0000078 | Time: 3.0s | Total: 16.9m
+Epoch [ 340/1000] Train: 203.8767 | Val: 90.3020 | LR: 0.0000039 | Time: 3.0s | Total: 17.4m
+Epoch [ 350/1000] Train: 234.8148 | Val: 87.4335 | LR: 0.0000039 | Time: 3.0s | Total: 17.9m
+Epoch [ 360/1000] Train: 202.4236 | Val: 87.8682 | LR: 0.0000039 | Time: 3.0s | Total: 18.5m
+Epoch [ 370/1000] Train: 234.6365 | Val: 87.5029 | LR: 0.0000039 | Time: 3.1s | Total: 19.0m
+Epoch [ 380/1000] Train: 211.6798 | Val: 86.5515 | LR: 0.0000039 | Time: 3.1s | Total: 19.5m
+Epoch [ 390/1000] Train: 218.5458 | Val: 100.7783 | LR: 0.0000020 | Time: 3.1s | Total: 20.1m
+Epoch [ 400/1000] Train: 227.7745 | Val: 86.3124 | LR: 0.0000020 | Time: 3.0s | Total: 20.6m
+Epoch [ 410/1000] Train: 211.1040 | Val: 86.2059 | LR: 0.0000010 | Time: 3.0s | Total: 21.1m
+Epoch [ 420/1000] Train: 238.7682 | Val: 86.2818 | LR: 0.0000010 | Time: 3.0s | Total: 21.6m
+Epoch [ 430/1000] Train: 174.6612 | Val: 103.0314 | LR: 0.0000005 | Time: 3.0s | Total: 22.1m
+Epoch [ 440/1000] Train: 202.0087 | Val: 86.4570 | LR: 0.0000005 | Time: 3.0s | Total: 22.7m
+Epoch [ 450/1000] Train: 185.6561 | Val: 88.3078 | LR: 0.0000005 | Time: 3.0s | Total: 23.2m
+Epoch [ 460/1000] Train: 191.0906 | Val: 91.2430 | LR: 0.0000005 | Time: 3.0s | Total: 23.7m
+Epoch [ 470/1000] Train: 219.3121 | Val: 90.4940 | LR: 0.0000002 | Time: 3.0s | Total: 24.2m
+Epoch [ 480/1000] Train: 206.1197 | Val: 109.1713 | LR: 0.0000002 | Time: 3.0s | Total: 24.7m
+Epoch [ 490/1000] Train: 210.4401 | Val: 86.2061 | LR: 0.0000001 | Time: 3.0s | Total: 25.2m
+Epoch [ 500/1000] Train: 204.2251 | Val: 93.1450 | LR: 0.0000001 | Time: 3.2s | Total: 25.8m
+Epoch [ 510/1000] Train: 216.5792 | Val: 91.6078 | LR: 0.0000001 | Time: 3.1s | Total: 26.3m
+Epoch [ 520/1000] Train: 200.1244 | Val: 86.4941 | LR: 0.0000001 | Time: 3.0s | Total: 26.8m
+Epoch [ 530/1000] Train: 197.4924 | Val: 90.6754 | LR: 0.0000000 | Time: 3.2s | Total: 27.3m
+Epoch [ 540/1000] Train: 180.5664 | Val: 88.0471 | LR: 0.0000000 | Time: 3.2s | Total: 27.8m
+
+⚠️  Early stopping at epoch 542
+
+============================================================
+Training completed in 27.9 minutes
+Best validation loss: 85.9704
+Best validation RMSE: 9.2720 years
+============================================================
+
+✓ Loaded best model from epoch 442
+
+Generating predictions...
+Predicting: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 24/24 [00:00<00:00, 80.05it/s]
+
+✓ Submission saved: submission_ultimate.csv
+  Total predictions: 6000
+  Year range: 1972 - 2017
+  Index range: 0 - 19996
+
+============================================================
+✓ Training completed successfully!
+============================================================
+Model saved: models/best_model_ultimate.pth
+Submission: submission_ultimate.csv
+
+🎉 Ready to submit to Kaggle!
+============================================================
