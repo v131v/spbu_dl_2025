@@ -1,0 +1,68 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            mvolx1v81cd8bo19iiqsdm0vrgxnr7bw:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 20
+                    memoryGb: 48
+                    name: Apple M4 Pro
+                    pcpuCores: 10
+                    ramTotalBytes: "51539607552"
+                    swapTotalBytes: "21474836480"
+                codePath: /Users/dobr2003/VSCodeProjects/spbu_dl_2025/homeworks/hw2/task4.ipynb
+                codePathLocal: task4.ipynb
+                cpu_count: 14
+                cpu_count_logical: 14
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "266129997824"
+                email: liya.dobrenkova@ya.ru
+                executable: /Users/dobr2003/VSCodeProjects/spbu_dl_2025/venv/bin/python
+                git:
+                    commit: b609de877cb9a7eeafdc7ff4a01806a494cbe243
+                    remote: git@github.com:v131v/spbu_dl_2025.git
+                host: i115320680
+                memory:
+                    total: "51539607552"
+                os: macOS-15.5-arm64-arm-64bit-Mach-O
+                program: /Users/dobr2003/VSCodeProjects/spbu_dl_2025/homeworks/hw2/task4.ipynb
+                python: CPython 3.14.0
+                root: /Users/dobr2003/VSCodeProjects/spbu_dl_2025/homeworks/hw2
+                startedAt: "2025-12-26T23:25:19.232755Z"
+                writerId: mvolx1v81cd8bo19iiqsdm0vrgxnr7bw
+        m: []
+        python_version: 3.14.0
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 1
+                - 2
+                - 3
+                - 13
+                - 16
+            "4": 3.14.0
+            "5": 0.23.1
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.23.1
+            "13": darwin-arm64
+architecture:
+    value: SimpleCNN
+augmentation:
+    value: Light_Augmentations
+batch_size:
+    value: 128
+epochs:
+    value: 20
+learning_rate:
+    value: 0.001
